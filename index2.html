@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .product {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: rgb(242, 243, 244);
+            border: 1px solid #121111;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .card h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .card p {
+            color: #151010;
+            font-size: 1em;
+        }
+        .card button {
+            background-color: #4ed3dc;
+            color: rgb(7, 12, 6);
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .card button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>My online store</header>
+    <section class="product">
+        <article class="card">
+            <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-ferarcosn-190819.jpg&fm=jpg" alt="Product 1">
+            <h2>Watch</h2>
+            <p>$10.00</p>
+            <button>Add to Cart</button>
+        </article>
+        <article class="card">
+            <img src="https://i.pinimg.com/736x/6b/63/55/6b6355e0923ac8b0d19757e996c969d6.jpg" alt="Product 2">
+            <h2>Laptop</h2>
+            <p>$100.00</p>
+            <button>Add to Cart</button>
+        </article>
+        <article class="card">
+            <img src="https://m.media-amazon.com/images/I/71r8FwtrrrL._UF350,350_QL80_.jpg" alt="Product 3">
+            <h2>Book</h2>
+            <p>$5.00</p>
+            <button>Add to Cart</button>
+        </article>
+        <article class="card">
+            <img src="https://cdn-images.farfetch-contents.com/17/37/18/27/17371827_37698921_600.jpg" alt="Product 4">
+            <h2>Shoes</h2>
+            <p>$50.00</p>
+            <button>Add to Cart</button>
+        </article>
+        <article class="card">
+            <img src="https://imgd.aeplcdn.com/664x374/n/nma9q9b_1801081.jpg?q=80" alt="Product 5">
+            <h2>bmw m5</h2>
+            <p>$50000.00</p>
+            <button>Add to Cart</button>
+        </article>
+        <article class="card">
+            <img src="https://www.royalenfield.org.uk/wp-content/uploads/2022/06/2022-Royal-Enfield-Meteor-350.jpeg" alt="Product 6">
+            <h2>royalenfield</h2>
+            <p>$5000.00</p>
+            <button>Add to Cart</button>
+        </article>
+    </section>
+</body>
+</html>
